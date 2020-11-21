@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #ccc;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+}
+
+.logo {
+  background-color: pink;
+  float: left;
+  /*width: 5%;*/
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  height: 100%;
+}
+
+.menu {
+  background-color: cyan;
+  height: 100%;
+  width: 270px;
+  float: right;
+}
+
+.menu li {
+  display: block;
+  height: 100%;
+  background-color: tan;
+}
+
+.menu li ul {
+  margin: 0px;
+  display: block;
+  float: left;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0.4px black inset;
+  padding: 0px 20px 0px 20px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.menu li ul:hover {
+  background: yellow;
+  color: orange;
+}
+
+.mid {
+  background-color: transparent;
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+
+.searchbar {
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 12px;
+  margin-left: 30%;
+  width: 400px;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+}
+
+.block-button {
+  padding-right: 5px;
+  margin-left: 2px;
+  border-right: 1px solid #ccc;
+  width: 8%;
+  height: 30px;
+  cursor: pointer;
+  float: left;
+}
+
+.search-icon {
+  font-family: "WebSymbolsRegular";
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.block-search {
+  height: 30px;
+  width: 90%;
+  float: left;
+
+}
+
+.search {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 15px;
+}

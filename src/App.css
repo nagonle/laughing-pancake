@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+
+.page {
+  position: relative;
+  min-height: 100vh;
+  background-color: orange;
+  overflow:hidden;
+}
+
+.wrap {
+  padding-bottom: -70px;
+}

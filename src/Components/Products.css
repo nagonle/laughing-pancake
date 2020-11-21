@@ -1,0 +1,12 @@
+.product {
+  width: 400px;
+  height: 540px;
+  margin: 0px auto;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+}
+
+.products {
+  overflow: hidden;
+}

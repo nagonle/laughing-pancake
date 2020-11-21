@@ -1,0 +1,43 @@
+.searchbar {
+  background-color: white;
+  margin: 0px auto;
+  width: 400px;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  margin-left: 60px;
+}
+
+.block-button {
+  padding-right: 5px;
+  margin-left: 2px;
+  border-right: 1px solid #ccc;
+  width: 8%;
+  height: 30px;
+  cursor: pointer;
+  float: left;
+}
+
+.search-icon {
+  font-family: "WebSymbolsRegular";
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.block-search {
+  height: 30px;
+  width: 90%;
+  float: left;
+
+}
+
+.search {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 15px;
+}
