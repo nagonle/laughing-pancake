@@ -21,8 +21,8 @@ const Container = ({ searchData }) => {
     return (
         <div>
             <div className="info">
-                <div className="phrase">Resultados para: {searchedText}</div>
-                <div className="sortby">Ordenar por:
+				<div className="phrase">Resultados para: <span className="text">{searchedText}</span></div>
+                <div className="sortby">Ordenar por:&nbsp;
 					<select name="sort">
                         <option value="select">Seleccione una opción</option>
 						<option value="ascPrice">No hago nada 1</option>

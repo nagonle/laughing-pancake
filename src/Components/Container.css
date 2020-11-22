@@ -1,18 +1,12 @@
 .container {
-  background: lightsteelblue;
-  /*height: 400px;*/
-  /*color: white;*/
-  /*font-weight: bold;*/
   text-align: center;
-  /*padding-top: 50px;*/
-  /*height: 100%;*/
 }
 
 
 .info {
   height: 30px;
   width: 100%;
-  background: deepskyblue;
+  margin-top:10px;
 }
 
 .phrase {
@@ -20,14 +14,16 @@
   float: left;
   line-height: 30px;
   height: 100%;
-  background: lightslategray;
 
+}
+
+.text {
+  font-weight: bold;
 }
 
 .sortby {
   padding: 0px 30px;
   float: right;
-  background: lime;
   height: 100%;
   line-height:30px;
 }

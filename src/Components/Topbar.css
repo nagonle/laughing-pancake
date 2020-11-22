@@ -1,5 +1,5 @@
 .heading {
-  background: lightcoral;
+  background: #023758;
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
@@ -11,14 +11,13 @@
 
 .topbar {
   height: 70px;
-  background-color: beige;
+  background-color: #0171ce;
   text-align: center;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
   height: 100%;
   overflow: hidden;
 }
@@ -26,25 +25,21 @@
 .leftgroup {
   height: 100%;
   width: 25%;
-  background: red;
 }
 
 .logo {
   height: 100%;
   width: 50%;
-  background: brown;
   float: left;
 }
 .navmenu {
   float: left;
   height: 100%;
-  background: skyblue;
   width: 50%;
 }
 
 .mid {
   height: 100%;
-  background-color: green;
   width: 50%;
   min-width: initial;
   padding-top: 20px;
@@ -53,7 +48,6 @@
 .rightgroup {
     height: 100%;
     width: 25%;
-    background-color: pink;
 }
 
 
@@ -63,9 +57,7 @@
   float: left;
 }
 .shoppingcart {
-  background: darksalmon;
 }
 
 .market {
-  background: white;
 }

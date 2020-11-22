@@ -45,7 +45,7 @@ const ProductCard = ({ allProducts }) => {
             <div className="products">
                 {displayProds}
             </div>
-            <Pagination productsPerPage={productsPerPage} totalProducts={totalProducts} handlePage={handlePage} handleArrow={handleArrow}/>
+            <Pagination currentPage={currentPage} productsPerPage={productsPerPage} totalProducts={totalProducts} handlePage={handlePage} handleArrow={handleArrow}/>
         </div>
     )
 }

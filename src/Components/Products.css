@@ -9,4 +9,5 @@
 
 .products {
   overflow: hidden;
+  min-height: 800px;
 }

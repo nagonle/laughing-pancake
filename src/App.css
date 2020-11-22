@@ -12,8 +12,8 @@ html, body {
 .page {
   position: relative;
   min-height: 100vh;
-  background-color: orange;
   overflow:hidden;
+  background-color: #f5f5f5;
 }
 
 .wrap {
