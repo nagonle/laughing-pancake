@@ -13,14 +13,11 @@
   display: inline-block;
 }
 
-.page-link, .isActive {
+.page-link, .isActive, .arrow-left, .arrow-right {
   outline: none;
   text-decoration: none;
-  display: block;
   background-color: white;
   color: skyblue;
-  text-decoration: none;
-  border: 1px solid green;
   border: 0px;
   width: 32px;
   height: 32px;
@@ -28,21 +25,15 @@
   line-height: 25px;
   font-size: 16px;
 }
-.arrow-left {
-  border-radius: 6px 0px 0px 6px;
-}
-
-.arrow-right {
-  border-radius: 0px 6px 6px 0px;
-}
 
 
-.page-link:hover, .arrow-left:hover, .arrow-right:hover {
+.page-link:hover {
   background-color: #0171ce;
   border-radius: 50%;
   height: 32px;
   width: 32px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .isActive {

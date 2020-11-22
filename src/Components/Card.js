@@ -2,9 +2,6 @@ import React from 'react';
 import './Card.css';
 
 const Card = ({ item, index }) => {
-  console.log('--- Card ---')
-  console.log(item)
-  console.log(index)
   const urlImage = `https://${item.image}`;
 
   return (
@@ -13,11 +10,11 @@ const Card = ({ item, index }) => {
         <img src={urlImage} alt="" />
       </div>
       <div className="price">
-        <div className="one">{item.brand} {item.description}</div>
-        <div className="two">${item.price} { item.final_price ? "50%" : ""}</div>
-        <div className="three">{item.final_price ? item.final_price : ""}</div>
-        <div className="four">(despacho) (retiro)</div>
-        <input type="button" value="Agregar"/>
+        <div className="one"><span className="brand">{item.brand}</span> <span className="desc">{item.description}</span></div>
+        <div className="two">${item.final_price ? item.final_price : item.price} { item.final_price ? <span className="discount">50%</span> : ""}</div>
+        <div className="three">{item.final_price ? "$" + item.price : ""}</div>
+        <div className="four"><span className="delivery">despacho</span> <span className="pickup">retiro</span></div>
+        <input className="add-button" type="button" value="Agregar"/>
       </div>
     </div>
   )

@@ -4,7 +4,6 @@ import './Container.css';
 import Products from './Products';
 
 const Container = ({ searchData }) => {
-	console.log('-- container --')
 
     const [searchedText] = [searchData.searchedText];
 
@@ -13,8 +12,6 @@ const Container = ({ searchData }) => {
     const [products, setProducts] = useState(data);
 
 	useEffect(() => {
-		console.log('product card - useEffect :')
-		console.log(searchData.data)
 		setProducts(searchData.data);
 	}, [searchData]);
 

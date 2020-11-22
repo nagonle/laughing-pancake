@@ -2,17 +2,93 @@ img {
   height: 100%;
 }
 
+.product {
+  width: 400px;
+  height: 600px;
+  margin: 0px auto;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
 .image {
   height: 400px;
-  background: gray;
   text-align: center;
   border-radius: 10px 10px 0px 0px;
+  background: white;
+  border-bottom: 1px solid #ddd;
 }
 
 .price {
   border-radius: 0px 0px 10px 10px;
-  background: lightblue;
-  height: 120px;
-  text-align: center;
+  background: white;
+  height: 180px;
+  text-align: left;
   padding: 10px;
+}
+
+.brand {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.desc {
+  text-transform: capitalize;
+  color: #9a9b9d;
+  font-weight: bold;
+}
+
+.two {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #565656;
+  font-size: 22px;
+}
+
+.discount {
+  background-color: #df1d24;
+  border-radius: 20px;
+  padding: 3px 5px;
+  font-size: 16px;
+  color: white;
+}
+
+.three {
+  color: #9a9b9d;
+  text-decoration: line-through;
+}
+
+.add-button {
+  margin-top: 35px;
+  color: #0f77d0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 8px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 120px;
+  outline: none;
+  cursor: pointer;
+}
+
+.four {
+  margin-top: 8px;
+}
+
+.delivery, .pickup {
+  border-radius: 8px;
+  padding: 0px 5px;
+}
+
+.delivery {
+  border: 1px solid #3388cd;
+  color:#3388cd;
+}
+
+.pickup {
+  border: 1px solid #fc8844;
+  color: #fc8844;
 }

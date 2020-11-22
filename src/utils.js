@@ -7,7 +7,7 @@ const getProducts = async (data) => {
     const resp = await axios.post(`${API_HOST}/api/search`, data, options);
     return resp.data;
   } catch (err) {
-    console.error('api post error:', err);
+    return { msg: err, discount: false, products: [] }
   }
 };
 

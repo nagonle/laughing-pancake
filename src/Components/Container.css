@@ -4,9 +4,11 @@
 
 
 .info {
-  height: 30px;
+  height: 50px;
+  line-height: 50px;
   width: 100%;
   margin-top:10px;
+  margin-bottom: 5px;
 }
 
 .phrase {
@@ -22,8 +24,11 @@
 }
 
 .sortby {
+  background-color: white;
+  border-radius: 8px;
   padding: 0px 30px;
   float: right;
+  margin-right:15px;
   height: 100%;
-  line-height:30px;
+  border: 1px solid #ddd;
 }

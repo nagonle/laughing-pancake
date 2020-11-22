@@ -5,13 +5,11 @@ import './Products.css';
 import Pagination from './Pagination';
 
 const ProductCard = ({ allProducts }) => {
-    console.log('-- ProductCard --')
 
     const [currentPage, setCurrentPage] = useState(1);
     const [products, setProducts] = useState(allProducts);
 
     let totalProducts = products.length;
-    console.log('total products:', totalProducts)
     let productsPerPage = 3;
 
 
@@ -32,7 +30,7 @@ const ProductCard = ({ allProducts }) => {
     }
 
     let displayProds = currentProducts.map((item, index) => {
-        return <Card item={item} index={index}/>
+        return <Card item={item} key={index}/>
     });
 
 	useEffect(() => {

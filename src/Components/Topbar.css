@@ -1,7 +1,6 @@
 .heading {
   background: #023758;
   text-align: center;
-  text-transform: capitalize;
   font-weight: bold;
   color: white;
   height: 30px;
@@ -32,6 +31,11 @@
   width: 50%;
   float: left;
 }
+
+.logo img {
+  width: 85%;
+}
+
 .navmenu {
   float: left;
   height: 100%;
