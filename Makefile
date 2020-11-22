@@ -4,9 +4,9 @@ start:
 build:
 	docker build -t web-products -f local.Dockerfile .
 run:
-	docker run --rm -d -p 3010:80 -e PORT=80 web-products
+	docker run --rm --name web-products -d -p 3010:80 -e PORT=80 web-products
 clean:
-	docker rm -f web-products
+	docker stop web-products
 reset:
 	make clean
 	make start

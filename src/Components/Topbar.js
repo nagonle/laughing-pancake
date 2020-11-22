@@ -12,14 +12,14 @@ const Topbar = ({ searchData }) => {
                 <div className="navbar">
                     <div className="leftgroup">
                         <div className="logo"><img src={logo} alt="" /></div>
-                        <div className="navmenu">MENU</div>
+                        <div className="navmenu"></div>
                     </div>
                     <div className="mid">
                         <Searchbar searchData={searchData}/>
                     </div>
                     <div className="rightgroup">
-                        <div className="shoppingcart">CART</div>
-                        <div className="market">MARKET</div>
+                        <div className="shoppingcart"></div>
+                        <div className="market"></div>
                     </div>
                 </div>
             </div>
