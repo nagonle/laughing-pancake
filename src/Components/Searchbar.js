@@ -10,9 +10,9 @@ const Searchbar = ({ searchData }) => {
 
   return (
       <div className="searchbar">
-        <form onSubmit={(e) => handleSearch(e)}>
+        <form name="search" onSubmit={(e) => handleSearch(e)}>
           <div className="block-button">
-            <div className="search-icon">L</div>
+            <button className="search-icon">L</button>
           </div>
           <div className="block-search">
             <input className="search" onChange={(e) => setSearchText(e.target.value)} type="text" value={searchText}></input>
